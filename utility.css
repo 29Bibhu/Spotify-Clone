@@ -1,0 +1,76 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 12px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+/* Scrollbar Styles */
+/* width and height are mandatory for Firefox */
+/* Track */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #303030; /* Dark background color for the thumb */
+    border-radius: 6px; /* Rounded corners for the thumb */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #505050; /* Dark background color for the thumb on hover */
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #121212; /* Dark background color for the track */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-track-piece {
+    background: #303030; /* Dark background color for the track piece (the area not covered by the thumb) */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-track-piece:hover {
+    background: #505050; /* Dark background color for the track piece on hover */
+  }
+  
